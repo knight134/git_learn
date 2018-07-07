@@ -11,4 +11,5 @@
 第五步：提交修改后的文件（提交文件的改动和添加新文件是一样的命令）
 	git add readme.txt
 	git commit -m "add new info"
-第六步：
+第六步：版本回退，每次执行commit操作之后形成一个新的版本。
+			此操作是commit的撤销操作么？
