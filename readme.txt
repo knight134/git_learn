@@ -13,3 +13,6 @@
 	git commit -m "add new info"
 第六步：版本回退，每次执行commit操作之后形成一个新的版本。
 			此操作是commit的撤销操作么？
+第七步：查看提交历史
+	git log
+
