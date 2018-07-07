@@ -13,6 +13,11 @@
 	git commit -m "add new info"
 第六步：版本回退，每次执行commit操作之后形成一个新的版本。
 			此操作是commit的撤销操作么？
+			git log        查看提交历史，里面查找存在的版本
+			git reflog			查看命令历史，查看所有的版本号
+			git reset --hard HEAD^     回退到上一个版本
+			git reset --hard 8eb3f8b   回退到一个指定版本
 第七步：查看提交历史
 	git log
+	git reflog
 
