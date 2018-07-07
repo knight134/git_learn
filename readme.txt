@@ -20,4 +20,9 @@
 第七步：查看提交历史
 	git log
 	git reflog
+第八步：撤销修改
+	git checkout -- readme.txt        将当前文件撤销到最近一次commit 或 add
+	git reset HEAD readme.txt					如果文件已经add，此操作撤销add操作，配上上一个命令可以
+	将当前文件与主版本一致。
+
 
