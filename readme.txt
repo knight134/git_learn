@@ -24,5 +24,10 @@
 	git checkout -- readme.txt        将当前文件撤销到最近一次commit 或 add
 	git reset HEAD readme.txt					如果文件已经add，此操作撤销add操作，配上上一个命令可以
 	将当前文件与主版本一致。
+第九步：删除文件
+	git rm test.txt 			删除某个文件
+	git commit -m ""
+	如果某个文件被删除，需要撤销
+	git checkout -- test.txt
 
 
