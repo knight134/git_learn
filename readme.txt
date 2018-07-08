@@ -38,4 +38,7 @@
 	使用ssh
 	git remote add origin git@github.com:knight134/git_learn.git
 	origin 是对远程仓库的重命名
+第十二步：将本地库推送到远程库中
+	git push -u origin master               第一次
+	git push origin master                 第二次
 
