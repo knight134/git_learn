@@ -30,4 +30,12 @@
 	如果某个文件被删除，需要撤销
 	git checkout -- test.txt
 
+第十步：远程仓库，创建SSH Key
+	ssh-keygen -t rsa -C "knight134@163.com"
+	id_rsa 和 id_rsa.pub 两个相关文件
+第十一步：将本地仓库与github上的远程仓库关联。
+	git remote add origin https://github.com/knight134/git_learn.git
+	使用ssh
+	git remote add origin git@github.com:knight134/git_learn.git
+	origin 是对远程仓库的重命名
 
