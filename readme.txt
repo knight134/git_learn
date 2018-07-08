@@ -42,3 +42,9 @@
 	git push -u origin master               第一次
 	git push origin master                 第二次
 
+	git push -u origin +master						如果远程库已经有东西，强制将本地库推送到远程库上。
+第十三步：远程库下载到本地
+	git clone git@github.com:knight134/git_learn.git
+
+第十四步：创建分支branch
+	
